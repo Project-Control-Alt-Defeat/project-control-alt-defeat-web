@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 
 function OrderDetail() {
     const { id } = useParams<{ id: string }>();
-    const order = data.orders.find(o => o._id == parseInt(id));
+    const order = data.orders.find(o => o._id === parseInt(id));
 
     return (
         <div>
