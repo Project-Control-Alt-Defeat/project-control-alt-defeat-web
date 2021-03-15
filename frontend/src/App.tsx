@@ -49,7 +49,7 @@ function App() {
                   </Route>
                 </Switch>
               </main>
-                <footer>
+                <footer className="footer">
                     &copy; 2021 Control Alt Defeat
                 </footer>
             </div>
